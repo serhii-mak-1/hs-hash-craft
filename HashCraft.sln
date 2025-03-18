@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashCraft.API", "HashCraft.API\HashCraft.API.csproj", "{8DD34144-15E7-4D9A-B0C1-D4EEB14F774B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashCraft.Storage", "HashCraft.Storage\HashCraft.Storage.csproj", "{E932C6A4-B179-4AAF-B99A-9B7E31B357F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashCraft.Infrastructure", "HashCraft.Infrastructure\HashCraft.Infrastructure.csproj", "{E8D89E2F-A3A7-4F52-B547-402ECA6EA69E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{247FF0A1-9F9F-4346-886D-C55EBBE5659C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashCraft.UnitTets", "tests\HashCraft.UnitTets\HashCraft.UnitTets.csproj", "{0165196E-5B49-4449-AD28-731CDAD1EC75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashCraft.IntegrationTests", "tests\HashCraft.IntegrationTests\HashCraft.IntegrationTests.csproj", "{CD6006C2-0A90-4170-A3B5-C98976EA66A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DD34144-15E7-4D9A-B0C1-D4EEB14F774B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD34144-15E7-4D9A-B0C1-D4EEB14F774B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD34144-15E7-4D9A-B0C1-D4EEB14F774B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD34144-15E7-4D9A-B0C1-D4EEB14F774B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E932C6A4-B179-4AAF-B99A-9B7E31B357F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E932C6A4-B179-4AAF-B99A-9B7E31B357F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E932C6A4-B179-4AAF-B99A-9B7E31B357F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E932C6A4-B179-4AAF-B99A-9B7E31B357F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8D89E2F-A3A7-4F52-B547-402ECA6EA69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D89E2F-A3A7-4F52-B547-402ECA6EA69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D89E2F-A3A7-4F52-B547-402ECA6EA69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D89E2F-A3A7-4F52-B547-402ECA6EA69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0165196E-5B49-4449-AD28-731CDAD1EC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0165196E-5B49-4449-AD28-731CDAD1EC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0165196E-5B49-4449-AD28-731CDAD1EC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0165196E-5B49-4449-AD28-731CDAD1EC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6006C2-0A90-4170-A3B5-C98976EA66A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6006C2-0A90-4170-A3B5-C98976EA66A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6006C2-0A90-4170-A3B5-C98976EA66A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6006C2-0A90-4170-A3B5-C98976EA66A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0165196E-5B49-4449-AD28-731CDAD1EC75} = {247FF0A1-9F9F-4346-886D-C55EBBE5659C}
+		{CD6006C2-0A90-4170-A3B5-C98976EA66A7} = {247FF0A1-9F9F-4346-886D-C55EBBE5659C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62649ADD-420D-45E3-91FA-D8CACF1ADDC5}
+	EndGlobalSection
+EndGlobal

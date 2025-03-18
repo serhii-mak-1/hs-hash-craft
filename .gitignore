@@ -1,0 +1,53 @@
+﻿# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vscode/
+.vs/
+*.sln.ide
+*.user
+*.userprefs
+*.suo
+*.sln.docstates
+*.pdb
+
+# Rider files
+.idea/
+
+# Visual Studio Code files
+.vscode/
+
+# Rider
+.idea/
+
+# Local database files
+*.db
+*.db-journal
+
+# Dotnet tools
+*.nupkg
+*.snupkg
+*.nuspec
+*.symbols.nupkg
+
+# Coverage results
+coverage/
+*.coverage
+*.coveragexml
+
+# ASP.NET files
+project.lock.json
+project.fragment.lock.json
+
+# Temporary files
+*~
+
+# Logs
+*.log
+
+# Thumbnails
+Thumbs.db
+.PreviewStore
