@@ -81,6 +81,12 @@ namespace HashCraft.Infrastructure.MessageServices.RabbitMQ
                     catch (Exception ex)
                     {
                         _logger.LogError(ex, "An error occurred on message processing");
+
+                        await _channel.BasicNackAsync(
+                            deliveryTag: ea.DeliveryTag,
+                            multiple: false,
+                            requeue: true,
+                            cancellationToken: ct);
                     }
                 };
 
